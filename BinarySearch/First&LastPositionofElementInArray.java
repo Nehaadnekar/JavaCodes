@@ -1,3 +1,5 @@
+//Complexity: O(log n)
+
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int l = 0 , r = nums.length-1;
