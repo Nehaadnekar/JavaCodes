@@ -1,3 +1,5 @@
+//Search Insert Position using Binary Search
+
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int l = 0;
