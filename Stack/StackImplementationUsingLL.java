@@ -17,11 +17,11 @@ class Stack
         Node node = new Node();
         if (node == null)
         {
-            System.out.print("\nHeap Overflow");
+            System.out.print("Overflow");
             return;
         }
  
-        System.out.println("Inserting " + x);
+        System.out.println(x);
         node.data = x;
         node.next = top;
         top = node;
@@ -35,7 +35,7 @@ class Stack
             return top.data;
         }
         else {
-            System.out.println("The stack is empty");
+            System.out.println("stack is empty");
             return -1;
         }
     }
@@ -43,11 +43,11 @@ class Stack
     {
         if (top == null)
         {
-            System.out.print("\nStack Underflow");
+            System.out.print("Underflow");
             return;
         }
  
-        System.out.println("Removing " + peek());
+        System.out.println(peek());
         top = (top).next;
     }
 }
@@ -62,7 +62,7 @@ class Main
         stack.push(2);
         stack.push(3);
  
-        System.out.println("The top element is " + stack.peek());
+        System.out.println(stack.peek());
  
         stack.pop();
         stack.pop();
