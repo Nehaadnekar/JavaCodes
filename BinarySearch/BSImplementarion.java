@@ -1,3 +1,4 @@
+//binary search Implementation
 class BinarySearch {
     int binarySearch(int arr[], int l, int r, int x)
     {
